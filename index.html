@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="style.css">
+    <title>pacman</title>
+</head>
+<body>
+    <div id="container">
+        <div id="score-board" >
+            <span id="score-text">Score: </span>
+            <span id="score-value">0</span>
+        </div>
+
+        <div id="maze">
+            <img src="images/maze.png" id="mazeImg">
+            <div id="pacman"></div>
+            <div id="blinky" class="ghost"></div>
+            <div id="pinky" class="ghost"></div>
+            <div id="inky" class="ghost"></div>
+            <div id="clyde" class="ghost"></div>
+            <div id="message">Press  Enter</div>
+
+            </div>
+            <div id="lives-board">
+                <span id="lives-text">Lives left:</span>
+                <img src="images/pacman.png">
+                <img src="images/pacman.png">
+                <img src="images/pacman.png">
+    </div>
+        </div>
+
+
+</body>
+
+<script src="scripts/data.js"></script>
+<script src="scripts/initialize.js"></script>
+<script src="scripts/AI.js"></script>
+<script src="scripts/event.js"></script>
+<script src="scripts/global.js"></script>
+<script src="scripts/timing.js"></script>
+<script src="scripts/utility.js"></script>
+<script src="scripts/visuals.js"></script>
+<script src="scripts/movement.js"></script>
+
+</html>

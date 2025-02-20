@@ -1,0 +1,98 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#container{
+    position: absolute;
+    margin:   auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 530px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#maze {
+    height: 500px;
+}
+
+#mazeImg{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+#pacman{
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    background: gold;
+    margin-left: 253px;
+    margin-top: 367px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.ghost{
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    z-index: 1;
+}
+
+#blinky{
+    background: red;
+    margin-left: 253px;
+    margin-top: 175px;
+}
+
+#pinky{
+    background: hotpink;
+    margin-left: 253px;
+    margin-top: 223px;
+}
+
+#inky{
+    background: cyan;
+    margin-left: 221px;
+    margin-top: 223px;
+}
+
+#clyde{
+    background: orange;
+    margin-left: 285px;
+    margin-top: 223px;
+}
+
+#message{
+    position: absolute;
+    color: white;
+    width: 160px;
+    text-align: center;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-top: 274px;
+    z-index: 5;    
+}
+
+#score-board, #lives-board{
+    height: 50px;
+    color: white;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#lives-board img{
+    width: 23px;
+    height: auto;
+    margin-left: 5px;
+}
