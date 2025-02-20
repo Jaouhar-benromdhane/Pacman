@@ -28,6 +28,13 @@ body{
     right: 0;
 }
 
+.dot{
+    position: absolute;
+    height: 4px;
+    width: 4px;
+    background: white;
+}	
+
 #pacman{
     position: absolute;
     height: 24px;

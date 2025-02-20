@@ -27,5 +27,11 @@ function setup(x){
 
     if(x=='level' || x=='load'){
         arrange_dots();
+        arrange_power();
     }
+
+setTimeout(() => {
+    document.querySelector('#message').innerHTML = '';
+}, 4500);
+
 }
